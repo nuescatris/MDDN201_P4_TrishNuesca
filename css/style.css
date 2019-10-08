@@ -72,25 +72,29 @@ section{
 	margin-right: auto;
 }
 
-/*
-#content{
+#three{
+    background-color: rgba(0, 0,0, 0.9);
+    color: white;
+	width: 100%;
+    height: 1500px;
+    margin-top: 20px;
+}
+
+#four{
+    background-color: rgba(0, 0,0, 0.9);
+    color: white;
+	width: 100%;
+    height: 1650px;
+    margin-top: 20px;
+}
+
+#content2{
     background-color: transparent;
     width: 90%;
-    height: 730px;
+    height: 950px;
     margin-left: auto;
 	margin-right: auto;
 }
-*/
-
-/*
-#three{
-    background-color: black;
-    color: white;
-	width: 100%;
-    height: 800px;
-    margin-top: 20px;
-}
-*/
 
 .left_column{
     width: 60%;
@@ -105,6 +109,22 @@ section{
     padding-left: 10px;
     padding-right: 15px;
 }
+
+.left2_column{
+    width: 50%;
+	float: left;  
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.right2_column{
+    width: 50%;
+	float: right;  
+    padding-left: 38px;
+    padding-right: 5px;
+
+}
+
 
 
 
@@ -210,54 +230,18 @@ p{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Simple grid */
-#left_column{
-    background: transparent;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-	float: left;  
 }
 
-#right_column{
-    background: transparent;
-    width: 50%;
-	float: right;  
-}
-
-.g-row{
-	width: 100%;
-	overflow: hidden;
-}
-
-.g-row img{
-	width: 94%; /*This makes all images in grids to be the size of their cell */
-}
-
-
-.g-30{
-	width: 40%;
-	float: left;
-}
-
-.g-70{
-	width: 60%;
-	float: left;
-}
-
-
-.padded{
-	padding-left: 10px; /* I add this to cells to add a little padding*/
+.center2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 285px;
+    width: 70%;
 }
 
 
